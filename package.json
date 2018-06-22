@@ -1,0 +1,24 @@
+{
+  "name": "multipart-mixed-parser",
+  "version": "0.1.0",
+  "description": "Multipart/mixed parser",
+  "repository": "git@github.com:tylerlong/multipart-mixed-parser.git",
+  "author": "Tyler Long <tyler4long@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "upgrade": "yarn-upgrade-all",
+    "test": "standard && jest",
+    "release": "webpack --progress --colors"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "eslint-plugin-html": "^4.0.5",
+    "jest": "^23.1.0",
+    "standard": "^11.0.1",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "yarn-upgrade-all": "^0.3.0"
+  }
+}
