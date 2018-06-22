@@ -1,5 +1,7 @@
 # multipart/mixed parser
 
+[![npm version](https://badge.fury.io/js/multipart-mixed-parser.svg)](https://badge.fury.io/js/multipart-mixed-parser)
+
 Multipart/mixed parser
 
 
@@ -9,8 +11,21 @@ Multipart/mixed parser
 yarn add multipart-mixed-parser
 ```
 
+#### Or
+
+<script src="https://unpkg.com/multipart-mixed-parser@0.1.1/dist/multipart-mixed-parser.js"></script>
+
 
 ### Usage
+
+```js
+import multipartMixedParser from 'multipart-mixed-parser'
+
+const input = '...'
+const output = multipartMixedParser.parse(input)
+```
+
+#### Or
 
 ```js
 import { parse } from 'multipart-mixed-parser'

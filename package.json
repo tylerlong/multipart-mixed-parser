@@ -1,6 +1,6 @@
 {
   "name": "multipart-mixed-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Multipart/mixed parser",
   "repository": "git@github.com:tylerlong/multipart-mixed-parser.git",
   "author": "Tyler Long <tyler4long@gmail.com>",
@@ -22,5 +22,10 @@
     "webpack": "^4.12.0",
     "webpack-cli": "^3.0.8",
     "yarn-upgrade-all": "^0.3.0"
-  }
+  },
+  "files": [
+    "dist/*",
+    "*.js",
+    "yarn.lock"
+  ]
 }
