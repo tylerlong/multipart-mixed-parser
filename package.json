@@ -1,11 +1,11 @@
 {
   "name": "multipart-mixed-parser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Multipart/mixed parser",
   "repository": "git@github.com:tylerlong/multipart-mixed-parser.git",
   "author": "Tyler Long <tyler4long@gmail.com>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/multipart-mixed-parser.js",
   "module": "index.js",
   "scripts": {
     "upgrade": "yarn-upgrade-all",
