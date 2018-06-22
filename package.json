@@ -10,11 +10,13 @@
   "scripts": {
     "upgrade": "yarn-upgrade-all",
     "test": "standard && jest",
-    "release": "webpack --progress --colors"
+    "release": "webpack --progress --colors",
+    "prepush": "yarn test"
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
     "eslint-plugin-html": "^4.0.5",
+    "husky": "^0.14.3",
     "jest": "^23.1.0",
     "standard": "^11.0.1",
     "webpack": "^4.12.0",
