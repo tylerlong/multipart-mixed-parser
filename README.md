@@ -13,7 +13,9 @@ yarn add multipart-mixed-parser
 
 #### Or
 
-<script src="https://unpkg.com/multipart-mixed-parser@0.1.1/dist/multipart-mixed-parser.js"></script>
+```
+<script src="https://unpkg.com/multipart-mixed-parser@0.1.2/dist/multipart-mixed-parser.js"></script>
+```
 
 
 ### Usage
