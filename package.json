@@ -10,7 +10,8 @@
   "scripts": {
     "test": "standard && jest",
     "release": "webpack --progress --colors",
-    "prepush": "yarn test"
+    "prepush": "yarn test",
+    "prepublishOnly": "yarn release"
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
